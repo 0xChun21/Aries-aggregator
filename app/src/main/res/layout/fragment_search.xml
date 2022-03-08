@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MoreFragment"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none"
+    >
+    <RelativeLayout
+        android:id="@+id/blockSearchTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/searchTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/dark_grey"
+            >
+
+            <TextView
+                android:id="@+id/textSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/arrowback"
+                />
+        </LinearLayout>
+<!--enter search information-->
+        <LinearLayout
+            android:id="@+id/inputTextSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/searchTitle"
+            android:layout_marginTop="20dp"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/dark_grey"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/ic_baseline_search"
+                android:paddingLeft="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quang cao"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:padding="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/trendingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/inputTextSearch"
+            android:background="@color/dark_grey"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Trending"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/flashtrending"/>
+        </LinearLayout>
+
+<!--        trending detail-->
+        <LinearLayout
+            android:id="@+id/trendingDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/trendingTitle">
+
+            <androidx.recyclerview.widget.RecyclerView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:background="@color/grey"/>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorDriver"
+                />
+
+        </LinearLayout>
+
+<!--   history search title     -->
+        <LinearLayout
+            android:id="@+id/historyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/trendingDetail"
+            android:background="@color/dark_grey"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="History Search"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/historytime"/>
+        </LinearLayout>
+
+<!--        history search detail-->
+        <LinearLayout
+            android:id="@+id/historyDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/historyTitle">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/grey"/>
+
+            <View
+                android:id="@+id/viewH"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorDriver"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

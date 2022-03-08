@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+        <item
+        android:title="Market"
+        android:id="@+id/market"
+        android:icon="@drawable/market"
+        app:showAsAction="ifRoom"/>
+        <item
+        android:title="watchList"
+        android:id="@+id/watchlist"
+        android:icon="@drawable/danhdau"
+        app:showAsAction="ifRoom"/>
+        <item
+        android:title="explore"
+        android:id="@+id/explore"
+        android:icon="@drawable/explore"
+        app:showAsAction="ifRoom"/>
+        <item
+        android:title="Search"
+        android:id="@+id/bottomSearch"
+        android:icon="@drawable/searchnew"
+        app:showAsAction="ifRoom"/>
+        <item
+        android:title="More"
+        android:id="@+id/more"
+        android:icon="@drawable/more"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>
+
+
+

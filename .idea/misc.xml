@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/drawable/button_bg.xml" value="0.2703125" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/drawable/edittext_bg.xml" value="0.2703125" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/drawable/privacy.xml" value="0.2703125" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/drawable/terms.xml" value="0.2703125" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/drawable/vie_bg.xml" value="0.2703125" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_introductory.xml" value="0.2" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_login2.xml" value="0.264" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_search_fiat.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_signup_tab_fragment.xml" value="0.24818840579710144" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/activity_swap_coin.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/coin_table_layout.xml" value="0.25263157894736843" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_explore.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_market__price.xml" value="0.11203703703703703" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_more.xml" value="0.4" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.2" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_on_boarding2.xml" value="0.264" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_on_boarding3.xml" value="0.176" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/fragment_watchlist.xml" value="0.25416666666666665" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/loading_layout.xml" value="0.253125" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/layout/login_tab_fragment.xml" value="0.25226449275362317" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/menu/bottom_menu.xml" value="0.264" />
+        <entry key="..\:/android/AriesAggregator/app/src/main/res/menu/toolbar_menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

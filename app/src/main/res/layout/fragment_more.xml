@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MoreFragment"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!-- title-->
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="More"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+<!-- setting mode-->
+        <LinearLayout
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="Settings"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+<!-- Darkmode in setting-->
+        <LinearLayout
+            android:id="@+id/darkmode_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setting"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/darkmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Mode"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/changedarkmode"
+                />
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/languagesetting"
+                />
+
+        </LinearLayout>
+
+<!--   tool title     -->
+        <LinearLayout
+            android:id="@+id/toolSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/darkmode_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/toolText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="Tools"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+<!--toolMode-->
+
+        <LinearLayout
+            android:id="@+id/toolMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolSetting"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/swap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap value"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/swapfiat"
+                />
+            <TextView
+                android:id="@+id/current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Time"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/currenttime"
+                />
+
+        </LinearLayout>
+<!--   social title     -->
+        <LinearLayout
+            android:id="@+id/socialSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolMode"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/socailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="Follow me"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+<!-- social Mode-->
+
+        <LinearLayout
+            android:id="@+id/sociallMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/socialSetting"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/flTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow me on Twitter"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/swapfiat"
+                />
+            <TextView
+                android:id="@+id/flInstagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow me on Instagram"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/currenttime"
+                />
+
+            <TextView
+                android:id="@+id/flFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow me on Facebook"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/currenttime"
+                />
+
+            <TextView
+                android:id="@+id/flMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take report on Medium"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/currenttime"
+                />
+
+        </LinearLayout>
+
+<!--    others title    -->
+        <LinearLayout
+            android:id="@+id/otherSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sociallMode"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/otherText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="Other"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+<!--    other Mode     -->
+
+        <LinearLayout
+            android:id="@+id/otherMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otherSetting"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/privacy"
+                />
+            <TextView
+                android:id="@+id/terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms of Service"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/terms"
+                />
+            <TextView
+                android:id="@+id/signOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Out"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/signout"
+                />
+
+        </LinearLayout>
+
+<!--        end title-->
+
+        <LinearLayout
+            android:id="@+id/endPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/otherMode"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/logo1"
+
+                android:contentDescription="TODO" />
+
+
+            <TextView
+                android:id="@+id/endTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:text="Aries 1.04.22"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
